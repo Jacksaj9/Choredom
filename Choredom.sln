@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChoredomUI", "ChoredomUI\ChoredomUI.csproj", "{803EBE4D-0462-4424-B45F-7299AFC27CFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChoredomUI", "ChoredomUI\ChoredomUI.csproj", "{803EBE4D-0462-4424-B45F-7299AFC27CFE}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ChoredomDB", "ChoredomDB\ChoredomDB.sqlproj", "{24F81D11-3886-4E6E-BAE1-B959D6A2927E}"
 EndProject
