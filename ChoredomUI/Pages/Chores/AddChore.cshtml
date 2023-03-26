@@ -4,12 +4,11 @@
 }
 
 <form action = "post">
-    <!--Add formatting from bootstrap-->
-    <div class="row mb-3">
-        <label for="inputChoreName" class="col-sm-2 col-form-label">Chore Name:</label>
-        <div class="col-sm-10">
-            <input type = "text" class="form-control" id="inputChoreName" />
-        </div>
+    <!--Added formatting from bootstrap-->
+
+    <div class="input-group mb-3">
+        <input type = "text" class="form-control" placeholder ="Enter Chore Name" aria-label="Enter Chore Name" aria-describedby="button-addon2" />
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add Chore</button>
     </div>
-    <button type="submit" class="btn btn-primary">Add Chore</button>
+
 </form>

@@ -3,4 +3,17 @@
 @{
 }
 
-<a class="btn btn-primary" asp-page="AddChore">Add Chore</a>
+<div class="container">
+    <div class="row">
+        <h1>Chore List</h1>
+    </div>
+    <div class="col-sm-9">
+        <a class="btn btn-success" asp-page="AddChore">Add Chore</a>
+    </div>
+</div>
+
+@foreach (var chore in Model.ChoreList){
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">@chore.ChoreName</li>
+    </ul>
+}
