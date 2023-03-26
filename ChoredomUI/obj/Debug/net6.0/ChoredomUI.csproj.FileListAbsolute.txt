@@ -1,0 +1,8 @@
+C:\Users\Meg\Source\Repos\Choredom\ChoredomUI\obj\Debug\net6.0\ChoredomUI.csproj.AssemblyReference.cache
+C:\Users\Meg\Source\Repos\Choredom\ChoredomUI\obj\Debug\net6.0\ChoredomUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Meg\Source\Repos\Choredom\ChoredomUI\obj\Debug\net6.0\ChoredomUI.AssemblyInfoInputs.cache
+C:\Users\Meg\Source\Repos\Choredom\ChoredomUI\obj\Debug\net6.0\ChoredomUI.AssemblyInfo.cs
+C:\Users\Meg\Source\Repos\Choredom\ChoredomUI\obj\Debug\net6.0\ChoredomUI.csproj.CoreCompileInputs.cache
+C:\Users\Meg\Source\Repos\Choredom\ChoredomUI\obj\Debug\net6.0\ChoredomUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Meg\Source\Repos\Choredom\ChoredomUI\obj\Debug\net6.0\ChoredomUI.RazorAssemblyInfo.cache
+C:\Users\Meg\Source\Repos\Choredom\ChoredomUI\obj\Debug\net6.0\ChoredomUI.RazorAssemblyInfo.cs
