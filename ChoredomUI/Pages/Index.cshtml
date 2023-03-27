@@ -4,7 +4,68 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<html>
+<head>
+    <!--
+        div{
+        position:relative;
+        display:inline;}
+
+        .imgtop{
+        position:absolute;
+        bottom:0;
+        right:0;
+        }
+    -->
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-9">
+            <img src="" />  <!--house image-->
+            <img src="" class="imgtop" /><!--bedroom image-->
+            <img src="" class="imgtop" /><!--Outdoors image-->
+            <img src="" class="imgtop" /><!--Living room image-->
+            <img src="" class="imgtop" /><!--Laundry image-->
+            <img src="" class="imgtop" /><!--Kitchen image-->
+            <img src="" class="imgtop" /><!--Closet image-->
+            <img src="" class="imgtop" /><!--bathroom image-->
+        </div>
+        <div class="col-sm-3">
+            <p>Housewide Chores:</p>
+            <input type="radio" id="sweep" name="rad_sweep" value="Sweep">
+            <label for="sweep">Sweep</label>
+            <br />
+            <input type="radio" id="mop" name="rad_mop" value="Mop">
+            <label for="mop">Mop</label>
+            <br />
+            <input type="radio" id="dust" name="rad_dust" value="Dust">
+            <label for="dust">Dust</label>
+            <br />
+            <input type="radio" id="trash" name="rad_trash" value="Trash">
+            <label for="trash">Pick up trash</label>
+            <br />
+            <input type="radio" id="washB" name="rad_washB" value="WashsB">
+            <label for="washB">Wash blankets</label>
+            <br />
+            <input type="radio" id="laundry" name="rad_laundry" value="Laundry">
+            <label for="laundry">Do laundry</label>
+            <br />
+            <input type="radio" id="plants" name="rad_plants" value="Plants">
+            <label for="plants">Water plants</label>
+            <br />
+            <input type="radio" id="windows" name="rad_windows" value="Windows">
+            <label for="windows">Wash windows</label>
+            <br />
+            <input type="radio" id="light" name="rad_light" value="Lightbulb">
+            <label for="light">Change lightbulb</label>
+            <br />
+            <input type="radio" id="dog" name="rad_dog" value="Dog">
+            <label for="dog">Walk the dog</label>
+            <br />
+            <button type="button" id="btn-custom-chore">Custom Chore</button>
+        </div>
+    </div>
+</body>
+</html>
+
