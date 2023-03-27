@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ChoredomUI.Models;
+using Microsoft.Data.SqlClient;
 
 namespace ChoredomUI.Pages.Chores
 {
