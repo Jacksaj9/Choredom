@@ -8,7 +8,7 @@
         {
             var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
             config = builder.Build();
-            return config.GetConnectionString("BooksConnectionString");
+            return config.GetConnectionString("ChoredomConnection");
         }
     }
 }
