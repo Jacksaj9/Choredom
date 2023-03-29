@@ -1,0 +1,10 @@
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\bin\Debug\ChoredomDB.dacpac
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\bin\Debug\ChoredomDB.dll
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\bin\Debug\ChoredomDB.pdb
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\ChoredomDB.sqlproj.AssemblyReference.cache
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\Model.xml
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\refactor.xml
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\postdeploy.sql
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\predeploy.sql
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\ChoredomDB.dll
+C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\ChoredomDB.pdb
