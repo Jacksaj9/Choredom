@@ -22,8 +22,9 @@ namespace ChoredomUI.Pages.Chores
                     while(reader.Read())
                     {
                         Chore chore = new Chore();
-                        chore.ChoreName = reader["ChoreName"].ToString();
                         chore.ChoreId = int.Parse(reader["ChoreId"].ToString());
+                        chore.ChoreName = reader["ChoreName"].ToString();
+                        
                         ChoreList.Add(chore);
                     }
                 }
