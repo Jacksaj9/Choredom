@@ -27,7 +27,7 @@ namespace ChoredomUI.Pages.Chores
 
                     cmd.ExecuteNonQuery();
                 }
-                return RedirectToPage("Index");
+                return RedirectToPage("ChoreList");
             }
             else
             {

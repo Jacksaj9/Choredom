@@ -8,3 +8,13 @@ C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\postdeploy.sql
 C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\predeploy.sql
 C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\ChoredomDB.dll
 C:\Users\under\Source\Repos\Choredom1\ChoredomDB\obj\Debug\ChoredomDB.pdb
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\bin\Debug\ChoredomDB.dacpac
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\bin\Debug\ChoredomDB.dll
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\bin\Debug\ChoredomDB.pdb
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\ChoredomDB.sqlproj.AssemblyReference.cache
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\Model.xml
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\refactor.xml
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\postdeploy.sql
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\predeploy.sql
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\ChoredomDB.dll
+C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\ChoredomDB.pdb
