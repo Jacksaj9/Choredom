@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
 using ChoredomUI.Models;
 
-namespace ChoredomUI.Pages.Chores
+namespace ChoredomUI.Pages.People
 {
-    public class IndexModel : PageModel
+    public class PeopleModel : PageModel
     {
         [BindProperty]
-        public List<Chore> ChoreList { get; set; } = new List<Chore>();
+        public List<Person> PeopleList { get; set; } = new List<Person>();
         public void OnGet()
         {
             using (SqlConnection conn = new SqlConnection(DBHelper.GetConnectionString()))
@@ -21,11 +21,13 @@ namespace ChoredomUI.Pages.Chores
                 {
                     while (reader.Read())
                     {
-                        Chore chore = new Chore();
-                        chore.ChoreId = int.Parse(reader["ChoreId"].ToString());
-                        chore.ChoreName = reader["ChoreName"].ToString();
+                        Person person = new Person();
+                        person.PersonId = int.Parse(reader["PersonId"].ToString());
+                        person.PersonFirstName = reader["PersonFirstName"].ToString();
+                        person.PersonLastName = reader["PersonLastName"].ToString();
 
-                        ChoreList.Add(chore);
+
+                        PeopleList.Add(person);
                     }
                 }
             }
