@@ -7,6 +7,7 @@ namespace ChoredomUI.Pages.Chores
 {
     public class AddModel : PageModel
     {
+        [BindProperty]
         public Chore NewChore { get; set; } = new Chore();
         public void OnGet()
         {

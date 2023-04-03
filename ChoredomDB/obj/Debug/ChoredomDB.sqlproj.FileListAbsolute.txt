@@ -14,3 +14,7 @@ C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\postdeploy.sql
 C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\predeploy.sql
 C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\ChoredomDB.dll
 C:\Users\Meg\Source\Repos\Choredom\ChoredomDB\obj\Debug\ChoredomDB.pdb
+C:\Users\under\source\repos\Choredom1\ChoredomDB\obj\Debug\Model.xml
+C:\Users\under\source\repos\Choredom1\ChoredomDB\obj\Debug\refactor.xml
+C:\Users\under\source\repos\Choredom1\ChoredomDB\obj\Debug\postdeploy.sql
+C:\Users\under\source\repos\Choredom1\ChoredomDB\obj\Debug\predeploy.sql

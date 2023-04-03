@@ -5,7 +5,7 @@ using ChoredomUI.Models;
 
 namespace ChoredomUI.Pages.Chores
 {
-    public class IndexModel : PageModel
+    public class ChoreListModel : PageModel
     {
         [BindProperty]
         public List<Chore> ChoreList { get; set; } = new List<Chore>();
