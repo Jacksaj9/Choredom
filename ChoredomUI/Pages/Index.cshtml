@@ -7,46 +7,28 @@
 
 <html>
 <head>
+    <style>
     <!--
 
-    .container{
-    position: relative;
-    width:50%
-    }
-    .container img{
-        width:100%
-        height:auto;
-    }
-    .container .a{
-    position: absolute;
-      background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    body{
+            background-color: #b7bdc3;
     }
 
-    div{
-        position:relative;
-        display:inline;}
-
-        .imgtop{
-        position:absolute;
-        bottom:0;
-        right:0;
+    button{
+            position: absolute;
+         
+        color: #000000;
+        
         }
         marquee{
-        font-size:30pt;
+        font-size:30px;
+        font-weight:800;
+        color: #9924c2;
+        padding:40px 0;
         }
-        a.button{
-        apperance:button;
-        text-decoration:none;
-        color: initial;
-        }
-        
+
     -->
+    </style>
 
 </head>
 <body>
@@ -55,10 +37,10 @@
         <div class="col-sm-9">
             <div class="container">
                 <img src="/lib/img/Housefloorplan.png" width="800" height="600" />  <!--house image-->
+               
                 <!--bedroom butotn-->
-                <a asp-page="Rooms/Bedroom">
-                    <button> </button>BedroomPage
-                    </a>
+                <a asp-page="/Rooms/Bedroom"><button style=" background-color:#FBC6AF; left:190px; top:570px;">Bedroom</button></a>
+
                 <!--Outdoors button-->
                 <a asp-page="Rooms/Outdoors" class="button">OutdoorsPage</a>
                 <!--Living room button-->
