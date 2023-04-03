@@ -2,3 +2,51 @@
 @model ChoredomUI.Pages.Rooms.BedroomModel
 @{
 }
+<html>
+<head>
+
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="container">
+                <img src="/lib/img/" width="800" height="600" />  <!--bedroom image-->
+
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <br />
+            <br />
+            <br>
+
+            <p style="font-size:26pt;">Bedroom Chores:</p>
+            <br>
+            <input type="radio" id="sweep" name="rad_sweep" value="Sweep">
+            <label for="sweep">Sweep the floor</label>
+            <br />
+            <input type="radio" id="mop" name="rad_mop" value="Mop">
+            <label for="mop">Mop the floor</label>
+            <br />
+            <input type="radio" id="trash" name="rad_trash" value="Trash">
+            <label for="trash">Take out trash</label>
+            <br />
+            <input type="radio" id="bed" name="rad_bed" value="Bed">
+            <label for="bed">Make the bed</label>
+            <br />
+            <input type="radio" id="counter" name="rad_counter" value="Countertops">
+            <label for="counter">Clean countertops</label>
+            <br />
+            <input type="radio" id="shower" name="rad_shower" value="Shower">
+            <label for="shower">Clean the Shower</label>
+            <br />
+            <input type="radio" id="light" name="rad_light" value="Lightbulb">
+            <label for="light">Change lightbulb</label>
+            <br />
+            <br />
+            <button type="button" id="btn-custom-chore">Custom Chore</button>
+        </div>
+    </div>
+
+</body>
+</html>

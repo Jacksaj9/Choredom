@@ -5,7 +5,7 @@ using ChoredomUI.Models;
 
 namespace ChoredomUI.Pages.People
 {
-    public class PeopleModel : PageModel
+    public class PeopleListModel : PageModel
     {
         [BindProperty]
         public List<Person> PeopleList { get; set; } = new List<Person>();

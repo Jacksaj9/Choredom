@@ -8,7 +8,27 @@
 <html>
 <head>
     <!--
-        div{
+
+    .container{
+    position: relative;
+    width:50%
+    }
+    .container img{
+        width:100%
+        height:auto;
+    }
+    .container .a{
+    position: absolute;
+      background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+    div{
         position:relative;
         display:inline;}
 
@@ -20,6 +40,12 @@
         marquee{
         font-size:30pt;
         }
+        a.button{
+        apperance:button;
+        text-decoration:none;
+        color: initial;
+        }
+        
     -->
 
 </head>
@@ -27,20 +53,31 @@
     <marquee>Welcome to Choredom!</marquee>
     <div class="row">
         <div class="col-sm-9">
-            <img src="/lib/img/Housefloorplan.png" width="800" height="600" />  <!--house image-->
-            <img src="" class="imgtop" /><!--bedroom image-->
-            <img src="" class="imgtop" /><!--Outdoors image-->
-            <img src="" class="imgtop" /><!--Living room image-->
-            <img src="" class="imgtop" /><!--Laundry image-->
-            <img src="" class="imgtop" /><!--Kitchen image-->
-            <img src="" class="imgtop" /><!--Closet image-->
-            <img src="" class="imgtop" /><!--bathroom image-->
+            <div class="container">
+                <img src="/lib/img/Housefloorplan.png" width="800" height="600" />  <!--house image-->
+                <!--bedroom butotn-->
+                <a asp-page="Rooms/Bedroom">
+                    <button> </button>BedroomPage
+                    </a>
+                <!--Outdoors button-->
+                <a asp-page="Rooms/Outdoors" class="button">OutdoorsPage</a>
+                <!--Living room button-->
+                <a asp-page="Rooms/livingRoom" class="button">livingRoomPage</a>
+                <!--Laundry button-->
+                <a asp-page="Rooms/Laundry" class="button">LaundryPage</a>
+                <!--Kitchen button-->
+                <a asp-page="Rooms/Kitchen" class="button">KitchenPage</a>
+                <!--Closet button-->
+                <a asp-page="Rooms/Closet" class="button">ClosetPage</a>
+                <!--bathroom button-->
+                <a asp-page="Rooms/Bathroom" class="button">Bathroom</a>
+            </div>
         </div>
         <div class="col-sm-3">
             <br />
             <br />
             <br>
-            
+
             <p style="font-size:26pt;">Housewide Chores:</p>
             <br>
             <input type="radio" id="sweep" name="rad_sweep" value="Sweep">
