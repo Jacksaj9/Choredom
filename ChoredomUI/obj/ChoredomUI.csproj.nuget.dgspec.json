@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\under\\Source\\Repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj": {}
+    "C:\\Users\\under\\source\\repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\under\\Source\\Repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj": {
+    "C:\\Users\\under\\source\\repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\under\\Source\\Repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj",
+        "projectUniqueName": "C:\\Users\\under\\source\\repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj",
         "projectName": "ChoredomUI",
-        "projectPath": "C:\\Users\\under\\Source\\Repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj",
+        "projectPath": "C:\\Users\\under\\source\\repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj",
         "packagesPath": "C:\\Users\\under\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\under\\Source\\Repos\\Choredom\\ChoredomUI\\obj\\",
+        "outputPath": "C:\\Users\\under\\source\\repos\\Choredom\\ChoredomUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
