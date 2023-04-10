@@ -30,5 +30,20 @@ namespace ChoredomUI.Pages.Chores
                 }
             }
         }
+
+        public IActionResult OnPost(int id)
+        {
+            using (SqlConnection conn = new SqlConnection(DBHelper.GetConnectionString()))
+            {
+                string sql = "DELETE FROM Chore WHERE ChoreId = @choreId";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@choreId", id);
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                return RedirectToPage("ChoreList");
+
+            }
+        }
+
     }
 }
