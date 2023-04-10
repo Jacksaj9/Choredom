@@ -11,7 +11,7 @@
     <!--
 
     body{
-            background-color: #b7bdc3;
+        
     }
 
     button{
@@ -37,22 +37,21 @@
         <div class="col-sm-9">
             <div class="container">
                 <img src="/lib/img/Housefloorplan.png" width="800" height="600" />  <!--house image-->
-               
                 <!--bedroom butotn-->
-                <a asp-page="/Rooms/Bedroom"><button style=" background-color:#FBC6AF; left:190px; top:570px;">Bedroom</button></a>
+                <a asp-page="/Rooms/Bedroom"><button style=" background-color:#FBC6AF; left:200px; top:550px;">Bedroom</button></a>
 
                 <!--Outdoors button-->
-                <a asp-page="Rooms/Outdoors" class="button">OutdoorsPage</a>
+                <a asp-page="Rooms/Outdoors"><button style="background-color:#FEE290; left:500px; top:400px;">Outdoors</button></a>
                 <!--Living room button-->
-                <a asp-page="Rooms/livingRoom" class="button">livingRoomPage</a>
+                <a asp-page="Rooms/livingRoom"><button style="background-color:#FFFFFF; left:500px; top:570px;">Living Room</button></a>
                 <!--Laundry button-->
-                <a asp-page="Rooms/Laundry" class="button">LaundryPage</a>
+                <a asp-page="Rooms/Laundry"><button style="background-color:#F3EAA2; left:470px; top:740px;">Laundry</button></a>
                 <!--Kitchen button-->
-                <a asp-page="Rooms/Kitchen" class="button">KitchenPage</a>
+                <a asp-page="Rooms/Kitchen"><button style="background-color:#94B8DA; left:700px; top:740px;">Kitchen</button></a>
                 <!--Closet button-->
-                <a asp-page="Rooms/Closet" class="button">ClosetPage</a>
+                <a asp-page="Rooms/Closet"><button style="background-color:#FFF2DC; left:230px; top:740px;">Closet</button></a>
                 <!--bathroom button-->
-                <a asp-page="Rooms/Bathroom" class="button">Bathroom</a>
+                <a asp-page="Rooms/Bathroom"><button style="background-color:#FFF2DC; left:780px; top:570px;">Bathroom</button></a>
             </div>
         </div>
         <div class="col-sm-3">
@@ -92,7 +91,7 @@
             <input type="radio" id="dog" name="rad_dog" value="Dog">
             <label for="dog">Walk the dog</label>
             <br />
-            <button type="button" id="btn-custom-chore">Custom Chore</button>
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:mediumpurple;">Custom Chore</button></a>
         </div>
     </div>
 </body>
