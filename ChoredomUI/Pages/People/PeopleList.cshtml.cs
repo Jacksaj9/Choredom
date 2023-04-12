@@ -13,7 +13,7 @@ namespace ChoredomUI.Pages.People
         {
             using (SqlConnection conn = new SqlConnection(DBHelper.GetConnectionString()))
             {
-                string sql = "SELECT * FROM Chore Order By ChoreName";
+                string sql = "SELECT * FROM Person Order By FirstName";
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -23,8 +23,8 @@ namespace ChoredomUI.Pages.People
                     {
                         Person person = new Person();
                         person.PersonId = int.Parse(reader["PersonId"].ToString());
-                        person.PersonFirstName = reader["PersonFirstName"].ToString();
-                        person.PersonLastName = reader["PersonLastName"].ToString();
+                        person.FirstName = reader["FirstName"].ToString();
+                        person.LastName = reader["LastName"].ToString();
 
 
                         PeopleList.Add(person);
@@ -32,5 +32,6 @@ namespace ChoredomUI.Pages.People
                 }
             }
         }
+       
     }
 }

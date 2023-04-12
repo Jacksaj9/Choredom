@@ -7,9 +7,9 @@ namespace ChoredomUI.Models
         [Required]
         public int PersonId { get; set; }
         [Required]
-        public string PersonFirstName { get; set; } = string.Empty;
+        public string FirstName { get; set; } = string.Empty;
         [Required]
-        public string PersonLastName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
 
     }
 }
