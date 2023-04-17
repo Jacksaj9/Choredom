@@ -9,89 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChoredomUI
 build_property.RootNamespace = ChoredomUI
-build_property.ProjectDir = C:\Users\under\source\repos\Choredom\ChoredomUI\
+build_property.ProjectDir = C:\Users\mazie\Source\Repos\Choredom\ChoredomUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\under\source\repos\Choredom\ChoredomUI
+build_property.MSBuildProjectDirectory = C:\Users\mazie\Source\Repos\Choredom\ChoredomUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Calendar.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Calendar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsZW5kYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Chores.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Chores.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hvcmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Chores/AddChore.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Chores/AddChore.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hvcmVzXEFkZENob3JlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Chores/ChoreList.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Chores/ChoreList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hvcmVzXENob3JlTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Error.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Index.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/People/AddPeople.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/People/AddPeople.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXEFkZFBlb3BsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/People/PeopleList.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/People/PeopleList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXFBlb3BsZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Privacy.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Rooms/Bathroom.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Rooms/Bathroom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcQmF0aHJvb20uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Rooms/Bedroom.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Rooms/Bedroom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcQmVkcm9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Rooms/Closet.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Rooms/Closet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcQ2xvc2V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Rooms/Kitchen.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Rooms/Kitchen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcS2l0Y2hlbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Rooms/Laundry.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Rooms/Laundry.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcTGF1bmRyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Rooms/livingRoom.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Rooms/livingRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcbGl2aW5nUm9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Rooms/Outdoors.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Rooms/Outdoors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbXNcT3V0ZG9vcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/_ViewImports.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/_ViewStart.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/under/source/repos/Choredom/ChoredomUI/Pages/Shared/_Layout.cshtml]
+[C:/Users/mazie/Source/Repos/Choredom/ChoredomUI/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pqm0t9hnoz
