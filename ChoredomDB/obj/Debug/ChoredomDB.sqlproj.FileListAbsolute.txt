@@ -28,3 +28,9 @@ C:\Users\Meg\Source\Repos\ChoreProject6\ChoredomDB\obj\Debug\postdeploy.sql
 C:\Users\Meg\Source\Repos\ChoreProject6\ChoredomDB\obj\Debug\predeploy.sql
 C:\Users\Meg\Source\Repos\ChoreProject6\ChoredomDB\obj\Debug\ChoredomDB.dll
 C:\Users\Meg\Source\Repos\ChoreProject6\ChoredomDB\obj\Debug\ChoredomDB.pdb
+C:\Users\under\source\repos\Choredom\ChoredomDB\bin\Debug\ChoredomDB.dacpac
+C:\Users\under\source\repos\Choredom\ChoredomDB\bin\Debug\ChoredomDB.dll
+C:\Users\under\source\repos\Choredom\ChoredomDB\bin\Debug\ChoredomDB.pdb
+C:\Users\under\source\repos\Choredom\ChoredomDB\obj\Debug\ChoredomDB.sqlproj.AssemblyReference.cache
+C:\Users\under\source\repos\Choredom\ChoredomDB\obj\Debug\ChoredomDB.dll
+C:\Users\under\source\repos\Choredom\ChoredomDB\obj\Debug\ChoredomDB.pdb

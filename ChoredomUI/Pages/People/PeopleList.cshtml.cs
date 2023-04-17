@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.SqlClient;
 using ChoredomUI.Models;
+using System.Data.SqlClient;
 
 namespace ChoredomUI.Pages.People
 {
@@ -25,6 +25,7 @@ namespace ChoredomUI.Pages.People
                         person.PersonId = int.Parse(reader["PersonId"].ToString());
                         person.FirstName = reader["FirstName"].ToString();
                         person.LastName = reader["LastName"].ToString();
+                        person.PersonBio = reader["PersonBio"].ToString();
 
 
                         PeopleList.Add(person);
@@ -32,6 +33,7 @@ namespace ChoredomUI.Pages.People
                 }
             }
         }
-       
+
     }
 }
+

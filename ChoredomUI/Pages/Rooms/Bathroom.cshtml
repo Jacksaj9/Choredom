@@ -20,31 +20,25 @@
             <br />
             <br>
 
-            <p style="font-size:26pt;">Bathroom Chores:</p>
+            <p style="font-size:26pt;font-family:georgia;">Bathroom Chores:</p>
             <br>
-            <input type="radio" id="sweep" name="rad_sweep" value="Sweep">
-            <label for="sweep">Sweep</label>
+            <input type="checkbox" name="chore" value="Sweep" />Sweep
             <br />
-            <input type="radio" id="mop" name="rad_mop" value="Mop">
-            <label for="mop">Mop the floor</label>
+            <input type="checkbox" name="chore" value="Mop" />Mop the floor
             <br />
-            <input type="radio" id="trash" name="rad_trash" value="Trash">
-            <label for="trash">Take out trash</label>
+            <input type="checkbox" name="chore" value="Take out trash" />Take out the trash
             <br />
-            <input type="radio" id="toilet" name="rad_toilet" value="Toilet">
-            <label for="toilet">Clean the toilet</label>
+            <input type="checkbox" name="chore" value="Clean the toilet" />Clean the toilet
             <br />
-            <input type="radio" id="counter" name="rad_counter" value="Countertops">
-            <label for="counter">Clean countertops</label>
+            <input type="checkbox" name="chore" value="Clean countertops" />Clean the countertops
             <br />
-            <input type="radio" id="shower" name="rad_shower" value="Shower">
-            <label for="shower">Clean the Shower</label>
+            <input type="checkbox" name="chore" value="Clean the shower" />Clean the shower
             <br />
-            <input type="radio" id="light" name="rad_light" value="Lightbulb">
-            <label for="light">Change lightbulb</label>
+            <input type="checkbox" name="chore" value="Clean the sink" />Clean the sink
             <br />
             <br />
-            <button type="button" id="btn-custom-chore">Custom Chore</button>
+            <br />
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;">Custom Chore</button></a>
         </div>
     </div>
 

@@ -4,16 +4,19 @@
 }
 
 <form method="post">
-    
+
     <div class="input-group mb-3">
         <span class="input-group-text">First name</span>
         <input type="text" aria-label="First name" class="form-control" id="AddFirstName" asp-for="NewPerson.FirstName">
         <span class="input-group-text">Last name</span>
         <input type="text" aria-label="Last name" class="form-control" id="AddLastName" asp-for="NewPerson.LastName">
+        <span class="input-group-text">Person Bio</span>
+        <input type="text" aria-label="Person Bio" class="form-control" id="AddPersonBio" asp-for="NewPerson.PersonBio">
     </div>
     <div class="mb-3">
-        <button type="submit" class="btn btn-success">Add Person</button>
+        <button type="submit" class="btn btn-success" id="addP">Add Person</button>
     </div>
 
 
 </form>
+

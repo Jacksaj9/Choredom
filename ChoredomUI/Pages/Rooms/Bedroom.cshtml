@@ -20,31 +20,23 @@
             <br />
             <br>
 
-            <p style="font-size:26pt;">Bedroom Chores:</p>
+            <p style="font-size:26pt;font-family:georgia;">Bedroom Chores:</p>
             <br>
-            <input type="radio" id="bed" name="rad_bed" value="Bed">
-            <label for="bed">Make the Bed</label>
+            <input type="checkbox" name="chore" value="Make the bed" />Make the bed
             <br />
-            <input type="radio" id="nightstand" name="rad_nightstand" value="Nightstand">
-            <label for="nightstand">Clear the nightstand</label>
+            <input type="checkbox" name="chore" value="Clear the nightstand" />Clear the nightstand
             <br />
-            <input type="radio" id="trash" name="rad_trash" value="Trash">
-            <label for="trash">Take out trash</label>
+            <input type="checkbox" name="chore" value="Strip bedsheets" />Strip bedsheets
             <br />
-            <input type="radio" id="sheets" name="rad_sheets" value="Sheets">
-            <label for="sheets">Strip bedsheets</label>
+            <input type="checkbox" name="chore" value="Vacuum the floor" />Vacuum the floor
             <br />
-            <input type="radio" id="vacuum" name="rad_vacuum" value="Vacuum">
-            <label for="vacuum">Vaccuum the floor</label>
+            <input type="checkbox" name="chore" value="Spot clean walls" />Spot clean walls
             <br />
-            <input type="radio" id="walls" name="rad_walls" value="Walls">
-            <label for="walls">Spot clean walls</label>
-            <br />
-            <input type="radio" id="light" name="rad_light" value="Lightbulb">
-            <label for="light">Change lightbulb</label>
+            <input type="checkbox" name="chore" value="Turn off TV" />Turn off TV
             <br />
             <br />
-            <button type="button" id="btn-custom-chore">Custom Chore</button>
+            <br />
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;">Custom Chore</button></a>
         </div>
     </div>
 

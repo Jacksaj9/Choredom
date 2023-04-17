@@ -20,31 +20,25 @@
             <br />
             <br>
 
-            <p style="font-size:26pt;">Outdoor Chores:</p>
+            <p style="font-size:26pt;font-family:georgia;">Outdoor Chores:</p>
             <br>
-            <input type="radio" id="mow" name="rad_mow" value="Mow">
-            <label for="mow">Mow the yard</label>
+            <input type="checkbox" name="chore" value="Mow the yard" />Mow the yard
             <br />
-            <input type="radio" id="water" name="rad_water" value="Water">
-            <label for="water">Water the plants</label>
+            <input type="checkbox" name="chore" value="Water the plants" />Water the plants
             <br />
-            <input type="radio" id="trash" name="rad_trash" value="Trash">
-            <label for="trash">Take out trash</label>
+            <input type="checkbox" name="chore" value="Set out the trash" />Set out the trash
             <br />
-            <input type="radio" id="gutters" name="rad_gutters" value="Gutters">
-            <label for="gutters">Clean the gutters</label>
+            <input type="checkbox" name="chore" value="Clean the gutters" />Clean the gutters
             <br />
-            <input type="radio" id="car" name="rad_car" value="Car">
-            <label for="car">Wash the car</label>
+            <input type="checkbox" name="chore" value="Wash the car" />Wash the car
             <br />
-            <input type="radio" id="rake" name="rad_rake" value="Rake">
-            <label for="rake">Rake the leaves</label>
+            <input type="checkbox" name="chore" value="Rake the leaves" />Rake the leaves
             <br />
-            <input type="radio" id="windows" name="rad_windows" value="Windows">
-            <label for="windows">Wash the Windows</label>
+            <input type="checkbox" name="chore" value="Wash the windows" />Wash the windows
             <br />
             <br />
-            <button type="button" id="btn-custom-chore">Custom Chore</button>
+            <br />
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;">Custom Chore</button></a>
         </div>
     </div>
 

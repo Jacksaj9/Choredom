@@ -394,3 +394,9 @@ C:\Users\Meg\Source\Repos\woochore\ChoredomUI\obj\Debug\net6.0\refint\ChoredomUI
 C:\Users\Meg\Source\Repos\woochore\ChoredomUI\obj\Debug\net6.0\ChoredomUI.pdb
 C:\Users\Meg\Source\Repos\woochore\ChoredomUI\obj\Debug\net6.0\ChoredomUI.genruntimeconfig.cache
 C:\Users\Meg\Source\Repos\woochore\ChoredomUI\obj\Debug\net6.0\ref\ChoredomUI.dll
+C:\Users\under\source\repos\Choredom\ChoredomUI\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\under\source\repos\Choredom\ChoredomUI\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\under\source\repos\Choredom\ChoredomUI\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\under\source\repos\Choredom\ChoredomUI\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\under\source\repos\Choredom\ChoredomUI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\under\source\repos\Choredom\ChoredomUI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

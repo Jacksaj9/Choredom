@@ -18,6 +18,12 @@
     @foreach (var person in Model.PeopleList)
     {
         <li class="list-group-item">@person.FirstName @person.LastName</li>
-        <!--<li class="list-group-item"></li>-->
+      
+    }
+</ul>
+<ul class="list-group list-group-flush">
+    @foreach (var person in Model.PeopleList)
+    {
+        <li class="list-group-item">@person.PersonBio</li>
     }
 </ul>

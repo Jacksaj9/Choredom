@@ -20,29 +20,23 @@
             <br />
             <br>
 
-            <p style="font-size:26pt;">Laundry room Chores:</p>
+            <p style="font-size:26pt;font-family:georgia;">Laundry room Chores:</p>
             <br>
-            <input type="radio" id="sweep" name="rad_sweep" value="Sweep">
-            <label for="sweep">Sweep</label>
+            <input type="checkbox" name="chore" value="Sweep" />Sweep
             <br />
-            <input type="radio" id="mop" name="rad_mop" value="Mop">
-            <label for="mop">Mop the floor</label>
+            <input type="checkbox" name="chore" value="Mop the floor" />Mop the floor
             <br />
-            <input type="radio" id="trash" name="rad_trash" value="Trash">
-            <label for="trash">Take out trash</label>
+            <input type="checkbox" name="chore" value="Take out the trash" />Take out the trash
             <br />
-            <input type="radio" id="washC" name="rad_washC" value="WashC">
-            <label for="washC">Wash the laundry</label>
+            <input type="checkbox" name="chore" value="Wash the laundry" />Wash the laundry
             <br />
-            <input type="radio" id="dryC" name="rad_dryC" value="DryC">
-            <label for="dryC">Dry the laundry</label>
+            <input type="checkbox" name="chore" value="Dry the laundry" />Dry the laundry
             <br />
-            <input type="radio" id="fold" name="rad_fold" value="Fold">
-            <label for="fold">Fold the laundry</label>
+            <input type="checkbox" name="chore" value="Fold the laundry" />Fold the laundry
             <br />
             <br />
             <br />
-            <button type="button" id="btn-custom-chore">Custom Chore</button>
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;">Custom Chore</button></a>
         </div>
     </div>
 

@@ -20,22 +20,19 @@
             <br />
             <br>
 
-            <p style="font-size:26pt;">Closet Chores:</p>
+            <p style="font-size:26pt;font-family:georgia;">Closet Chores:</p>
             <br>
-            <input type="radio" id="clothes" name="rad_clothes" value="Clothes">
-            <label for="clothes">Put away clothes</label>
+            <input type="checkbox" name="chore" value="Put away clothes" />Put away clothes
             <br />
-            <input type="radio" id="organize" name="rad_organize" value="Organize">
-            <label for="organize">Organize your wardrobe</label>
+            <input type="checkbox" name="chore" value="Organize your wardrobe" />Organize your wardrobe
             <br />
-            <input type="radio" id="iron" name="rad_iron" value="Iron">
-            <label for="iron">Iron clothes</label>
+            <input type="checkbox" name="chore" value="Iron Clothes" />Iron Clothes
             <br />
-            <input type="radio" id="oldClothes" name="rad_oldClothes" value="OldClothes">
-            <label for="oldClothes">Get rid of old clothes</label>
+            <input type="checkbox" name="chore" value="Donate clothes" />Donate clothes
             <br />
             <br />
-            <button type="button" id="btn-custom-chore">Custom Chore</button>
+            <br />
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;">Custom Chore</button></a>
         </div>
     </div>
 

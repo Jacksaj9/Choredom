@@ -20,24 +20,21 @@
             <br />
             <br>
 
-            <p style="font-size:26pt;">Living room Chores:</p>
+            <p style="font-size:26pt;font-family:georgia;">Living room Chores:</p>
             <br>
-            <input type="radio" id="vacuum" name="rad_vaccum" value="Vaccum">
-            <label for="vacuum">Vacuum</label>
+            <input type="checkbox" name="chore" value="Vacuum the floor" />Vacuum the floor
             <br />
-            <input type="radio" id="dust" name="rad_dust" value="Dust">
-            <label for="dust">Dust the room</label>
+            <input type="checkbox" name="chore" value="Dust the room" />Dust the room
             <br />
-            <input type="radio" id="pillows" name="rad_pillows" value="Pillows">
-            <label for="pillows">Fluff the pillows</label>
+            <input type="checkbox" name="chore" value="Fluff the pillows" />Fluff the pillows
             <br />
-            <input type="radio" id="sanitize" name="rad_sanitize" value="Sanitize">
-            <label for="sanitize">Sanitize remotes</label>
+            <input type="checkbox" name="chore" value="Sanitize remotes" />Sanitize remotes
             <br />
-            <input type="radio" id="table" name="rad_table" value="Table">
-            <label for="table">Wipe down coffee table</label>
+            <input type="checkbox" name="chore" value="Wipe down the coffee table" />Wipe down the coffee table
             <br />
-            <button type="button" id="btn-custom-chore">Custom Chore</button>
+            <br />
+            <br />
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;">Custom Chore</button></a>
         </div>
     </div>
 

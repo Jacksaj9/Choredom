@@ -20,12 +20,17 @@
         color: #000000;
         
         }
-        marquee{
+
+    marquee{
         font-size:30px;
         font-weight:800;
-        color: #9924c2;
+            font-family: georgia;
+        color: purple;
         padding:40px 0;
         }
+    checkbox{
+            font-family: georgia;
+    }
 
     -->
     </style>
@@ -38,20 +43,20 @@
             <div class="container">
                 <img src="/lib/img/floorplan.png" width="800" height="600" />  <!--house image-->
                 <!--bedroom butotn-->
-                <a asp-page="/Rooms/Bedroom"><button style=" background-color:#FBC6AF; left:200px; top:550px;">Bedroom</button></a>
+                <a asp-page="/Rooms/Bedroom"><button style=" background-color:#FBC6AF;font-family:georgia; left:200px; top:550px;">Bedroom</button></a>
 
                 <!--Outdoors button-->
-                <a asp-page="Rooms/Outdoors"><button style="background-color:#FEE290; left:500px; top:400px;">Outdoors</button></a>
+                <a asp-page="Rooms/Outdoors"><button style="background-color:#FEE290; font-family:georgia;left:500px; top:400px;">Outdoors</button></a>
                 <!--Living room button-->
-                <a asp-page="Rooms/livingRoom"><button style="background-color:#FFFFFF; left:480px; top:570px;">Living Room</button></a>
+                <a asp-page="Rooms/livingRoom"><button style="background-color:#FFFFFF; font-family:georgia;left:480px; top:570px;">Living Room</button></a>
                 <!--Laundry button-->
-                <a asp-page="Rooms/Laundry"><button style="background-color:#F3EAA2; left:470px; top:740px;">Laundry</button></a>
+                <a asp-page="Rooms/Laundry"><button style="background-color:#F3EAA2; font-family:georgia;left:470px; top:740px;">Laundry</button></a>
                 <!--Kitchen button-->
-                <a asp-page="Rooms/Kitchen"><button style="background-color:#94B8DA; left:700px; top:740px;">Kitchen</button></a>
+                <a asp-page="Rooms/Kitchen"><button style="background-color:#94B8DA; font-family:georgia;left:700px; top:740px;">Kitchen</button></a>
                 <!--Closet button-->
-                <a asp-page="Rooms/Closet"><button style="background-color:#FFF2DC; left:230px; top:740px;">Closet</button></a>
+                <a asp-page="Rooms/Closet"><button style="background-color:#FFF2DC; font-family:georgia;left:230px; top:740px;">Closet</button></a>
                 <!--bathroom button-->
-                <a asp-page="Rooms/Bathroom"><button style="background-color:#FFF2DC; left:780px; top:570px;">Bathroom</button></a>
+                <a asp-page="Rooms/Bathroom"><button style="background-color:#FFF2DC; font-family:georgia;left:780px; top:570px;">Bathroom</button></a>
             </div>
         </div>
         <div class="col-sm-3">
@@ -59,39 +64,32 @@
             <br />
             <br>
 
-            <p style="font-size:26pt;">Housewide Chores:</p>
+            <p style="font-size:26pt;font-family:georgia;">Housewide Chores:</p>
             <br>
-            <input type="radio" id="sweep" name="rad_sweep" value="Sweep">
-            <label for="sweep">Sweep</label>
+
+            <input type="checkbox" name="chore" value="Sweep" />Sweep
             <br />
-            <input type="radio" id="mop" name="rad_mop" value="Mop">
-            <label for="mop">Mop</label>
+            <input type="checkbox" name="chore" value="Mop" />Mop
             <br />
-            <input type="radio" id="dust" name="rad_dust" value="Dust">
-            <label for="dust">Dust</label>
+            <input type="checkbox" name="chore" value="Dust" />Dust
             <br />
-            <input type="radio" id="trash" name="rad_trash" value="Trash">
-            <label for="trash">Pick up trash</label>
+            <input type="checkbox" name="chore" value="Pick Trash"/>Pick up trash
             <br />
-            <input type="radio" id="washB" name="rad_washB" value="WashsB">
-            <label for="washB">Wash blankets</label>
+            <input type="checkbox" name="chore" value="Wash Carpet" />Wash carpet
             <br />
-            <input type="radio" id="laundry" name="rad_laundry" value="Laundry">
-            <label for="laundry">Do laundry</label>
+            <input type="checkbox" name="chore" value="Straighten" /> Straigten up
             <br />
-            <input type="radio" id="plants" name="rad_plants" value="Plants">
-            <label for="plants">Water plants</label>
+            <input type="checkbox" name="chore" value="Water Plants"/>Water plants
             <br />
-            <input type="radio" id="windows" name="rad_windows" value="Windows">
-            <label for="windows">Wash windows</label>
+            <input type="checkbox" name="chore" value="Wash windows" />Wash windows
             <br />
-            <input type="radio" id="light" name="rad_light" value="Lightbulb">
-            <label for="light">Change lightbulb</label>
+            <input type="checkbox" name="chore" value="Change lightbulb"/>Change lightbulb
             <br />
-            <input type="radio" id="dog" name="rad_dog" value="Dog">
-            <label for="dog">Walk the dog</label>
+            <input type="checkbox" name="chore" value="Walk the dog" />Walk the dog
             <br />
-            <a asp-page="/Chores/ChoreList"><button style=" background-color:mediumpurple;">Custom Chore</button></a>
+            <br />
+            <br />
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;">Custom Chore</button></a>
         </div>
     </div>
 </body>
