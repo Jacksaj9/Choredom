@@ -2290,19 +2290,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mazie\\.nuget\\packages\\": {}
+    "C:\\Users\\Meg\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mazie\\Source\\Repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj",
+      "projectUniqueName": "C:\\Users\\Meg\\Source\\Repos\\choretime\\ChoredomUI\\ChoredomUI.csproj",
       "projectName": "ChoredomUI",
-      "projectPath": "C:\\Users\\mazie\\Source\\Repos\\Choredom\\ChoredomUI\\ChoredomUI.csproj",
-      "packagesPath": "C:\\Users\\mazie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mazie\\Source\\Repos\\Choredom\\ChoredomUI\\obj\\",
+      "projectPath": "C:\\Users\\Meg\\Source\\Repos\\choretime\\ChoredomUI\\ChoredomUI.csproj",
+      "packagesPath": "C:\\Users\\Meg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Meg\\Source\\Repos\\choretime\\ChoredomUI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mazie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Meg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
