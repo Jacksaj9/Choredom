@@ -18,7 +18,7 @@ namespace ChoredomUI.Pages.Chores
             {
                 using (SqlConnection conn = new SqlConnection(DBHelper.GetConnectionString()))
                 {
-                    string sql = "INSERT INTO Person(FirstName, LastName, PersonBio, PersonImage)" + "VALUES (@FirstName, @LastName, @PersonBio, @PersonImage)";
+                    string sql = "INSERT INTO Person(FirstName, LastName, PersonBio)" + "VALUES (@FirstName, @LastName, @PersonBio)";
 
                     SqlCommand cmd = new SqlCommand(sql, conn);
 
@@ -28,7 +28,7 @@ namespace ChoredomUI.Pages.Chores
                     conn.Open();
 
                     cmd.ExecuteNonQuery();
-                    string sqlPersonID = "SELECT @@Identity";
+                    //string sqlPersonID = "SELECT @@Identity";
                 }
                 return RedirectToPage("PeopleList");
             }

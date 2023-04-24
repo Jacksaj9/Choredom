@@ -34,6 +34,20 @@ namespace ChoredomUI.Pages.People
             }
         }
 
+        public IActionResult OnPost(int id)
+        {
+            using (SqlConnection conn = new SqlConnection(DBHelper.GetConnectionString()))
+            {
+                string sql = "DELETE FROM Person WHERE PersonId = @personId";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@personId", id);
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                return RedirectToPage("PeopleList");
+
+            }
+        }
+
     }
 }
 

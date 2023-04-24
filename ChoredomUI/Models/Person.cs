@@ -10,6 +10,6 @@ namespace ChoredomUI.Models
         public string FirstName { get; set; } = string.Empty;
         [Required]
         public string LastName { get; set; } = string.Empty;
-        public object PersonBio { get; internal set; }
+        public string PersonBio { get; set; } = string.Empty;
     }
 }
