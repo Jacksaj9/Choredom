@@ -46,4 +46,5 @@ namespace ChoredomUI.Pages.Chores
         }
 
     }
+
 }
