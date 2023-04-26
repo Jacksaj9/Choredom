@@ -1,0 +1,39 @@
+﻿@page
+@model ChoredomUI.Pages.People.EditPeopleModel
+@{
+}
+
+<script type="text/javascript">
+
+    function validateInput() {
+        var isValid = true;
+        var personName = document.getElementById("inputPersonFirstName");
+        if (personName.value == "") {
+            isValid = false;
+            document.getElementById("personNameError").innerHTML = "This field is required.";
+        }
+        return isValid;
+    }
+
+</script>
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <label for="inputPersonName" class="col-sm-12 col-form-label" asp-for="ExistingPerson.FirstName"></label>
+    <span class="input-group-text">First name</span>
+    <input type="text" aria-label="First name" class="form-control" id="AddFirstName" asp-for="ExistingPerson.FirstName">
+    <span asp-validation-for="ExistingPerson.FirstName" class="text-danger" id="personNameError"></span>
+
+    <span class="input-group-text">Last name</span>
+    <input type="text" aria-label="Last name" class="form-control" id="AddLastName" asp-for="ExistingPerson.LastName">
+    <span asp-validation-for="ExistingPerson.LastName" class="text-danger" id="personNameError"></span>
+
+    <span class="input-group-text">Person Bio</span>
+    <input type="text" aria-label="Person Bio" class="form-control" id="AddPersonBio" asp-for="ExistingPerson.PersonBio">
+    <span asp-validation-for="ExistingPerson.PersonBio" class="text-danger" id="personNameError"></span>
+
+    <button type="submit" class="btn btn-success" onclick="return validateInput()">Update Person</button>
+    <a asp-page="PeopleList" class="btn btn-secondary">Cancel</a>
+
+
+</form>

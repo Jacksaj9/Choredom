@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXEFkZFBlb3BsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Meg/source/repos/choretime/ChoredomUI/Pages/People/EditPeople.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXEVkaXRQZW9wbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Meg/source/repos/choretime/ChoredomUI/Pages/People/PeopleList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlXFBlb3BsZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
