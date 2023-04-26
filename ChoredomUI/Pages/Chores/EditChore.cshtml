@@ -2,3 +2,31 @@
 @model ChoredomUI.Pages.Chores.EditChoreModel
 @{
 }
+
+<script type="text/javascript">
+    
+    function validateInput(){
+        var isValid = true;
+        var choreName = document.getElementById("inputChoreName");
+        if(choreName.value == ""){
+            isValid = false;
+            document.getElementById("choreNameError").innerHTML = "This field is required.";
+        }
+        return isValid;
+    }
+
+</script>
+
+<+form method="post">
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <label for="inputChoreName" class="col-sm-12 col-form-label" asp-for="ExistingChore.ChoreName"></label>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Enter Chore Name" aria-label="Enter Chore Name" aria-describedby="AddChore" id="AddChore" asp-for="ExistingChore.ChoreName" />
+        <span asp-validation-for="ExistingChore.ChoreName" class="text-danger" id="choreNameError"></span>
+        <button class="btn btn-outline-secondary" type="submit" onclick="return validateInput()">Update Chore</button>
+        <a asp-page="ChoreList" class="btn btn-secondary">Cancel</a>
+    </div>
+
+</+form>
+
