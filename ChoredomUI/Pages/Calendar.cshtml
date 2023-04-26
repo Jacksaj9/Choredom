@@ -10,135 +10,185 @@
 <head>
     <style>
         <!--
-        ul {
-            list-style-type: none;
-        }
-
         body {
-            font-family: Georgia;
+            background-color: #333;
+            color: #aaa;
+            font-family: 'Josefin Sans';
         }
 
-        .month {
-            padding: 70px 25px;
+        .calendar {
+            width: 350px;
+            margin: 50px auto 0;
+        }
+
+        .calendar__month {
+            font-size: 20px;
+            font-weight: 800;
+            padding: 10px 0;
             width: 100%;
-            background: #520052;
+            position: relative;
+        }
+
+        .cal-month__previous,
+        .cal-month__next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
             text-align: center;
+            &:hover
+
+        {
+            background-color: #42A5F5;
+            box-shadow: 0 5px 5px -5px rgba(0,0,0,0.75);
+            border-radius: 50%;
+            font-weight: 800;
+            color: #111;
         }
 
-            .month ul {
-                margin: 0;
-                padding: 0;
-            }
-
-                .month ul li {
-                    color: white;
-                    font-size: 35px;
-                    text-transform: upperccase;
-                    letter-spacing: 3px;
-                }
-
-            .month .prev {
-                float: left;
-                padding-top: 10px;
-            }
-
-            .month .next {
-                float: right;
-                padding-top: 10px;
-            }
-
-        /* Weekdays (Mon-Sun) */
-        .weekdays {
-            margin: 0;
-            padding: 10px 0;
-            background-color: #ddd;
         }
 
-            .weekdays li {
-                display: inline-block;
-                width: 13.6%;
-                color: #666;
-                text-align: center;
-            }
-
-        /* Days (1-31) */
-        .days {
-            padding: 10px 0;
-            background: #eee;
-            margin: 0;
+        .cal-month__next {
+            right: 0;
         }
 
-            .days li {
-                list-style-type: none;
-                display: inline-block;
-                width: 13.6%;
-                text-align: center;
-                margin-bottom: 5px;
-                font-size: 12px;
-                color: #777;
-            }
+        .cal-month__current {
+            text-align: center;
+            color: #e1e1e1;
+        }
 
-                /* Highlight the "current" day */
-                .days li .active {
-                    padding: 5px;
-                    background: #520052;
-                    color: white !important
-                }
+        .cal-head__day,
+        .cal-body__day {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            float: left;
+        }
+
+        .cal-body__week,
+        .calendar__head {
+            display: block;
+            height: 50px;
+            width: 350px;
+        }
+
+        .calendar__head {
+            line-height: 50px;
+            position: relative;
+            &:after
+
+        {
+            content: ' ';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background-color: #90CAF9;
+        }
+
+        }
+
+        .cal-body__day {
+            color: #777;
+            line-height: 50px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .cal-day__month--current {
+            color: #e1e1e1;
+        }
+
+        .cal-day__day--today {
+            font-weight: 800;
+            color: #2196f3;
+        }
+
+        .cal-day__day--selected {
+            background-color: #2196f3;
+            box-shadow: 0 5px 10px -5px rgba(0, 0, 0, .75);
+            border-radius: 50%;
+            color: #111;
+        }
         -->
 
     </style>
 </head>
 <body>
-    <div class="month">
-        <ul>
-            <li class="prev">&#10094</li>
-            <li class="next">&#10095</li>
-            <li>April <br /><span style="font-size:35px">2023</span></li>
-        </ul>
+    <div class="calendar">
+        <div class="calendar__month">
+            <div class="cal-month__previous"><</div>
+            <div class="cal-month__current"></div>
+            <div class="cal-month__next">></div>
+        </div>
+        <div class="calendar__head">
+            <div class="cal-head__day"></div>
+            <div class="cal-head__day"></div>
+            <div class="cal-head__day"></div>
+            <div class="cal-head__day"></div>
+            <div class="cal-head__day"></div>
+            <div class="cal-head__day"></div>
+            <div class="cal-head__day"></div>
+        </div>
+        <div class="calendar__body">
+            <div class="cal-body__week">
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+            </div>
+            <div class="cal-body__week">
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+            </div>
+            <div class="cal-body__week">
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+            </div>
+            <div class="cal-body__week">
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+            </div>
+            <div class="cal-body__week">
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+            </div>
+            <div class="cal-body__week">
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+                <div class="cal-body__day"></div>
+            </div>
+        </div>
     </div>
-
-    <ul class="weekdays">
-        <li>Sun</li>
-        <li>Mon</li>
-        <li>Tue</li>
-        <li>Wed</li>
-        <li>Thu</li>
-        <li>Fri</li>
-        <li>Sat</li>
-    </ul>
-
-    <ul class="days">
-
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-        <li>7</li>
-        <li>8</li>
-        <li>9</li>
-        <li>10</li>
-        <li>11</li>
-        <li>12</li>
-        <li>13</li>
-        <li>14</li>
-        <li>15</li>
-        <li>16</li>
-        <li>17</li>
-        <li>18</li>
-        <li>19</li>
-        <li>20</li>
-        <li>21</li>
-        <li>22</li>
-        <li>23</li>
-        <li>24</li>
-        <li>25</li>
-        <li><span class="active">26</span></li>
-        <li>27</li>
-        <li>28</li>
-        <li>29</li>
-        <li>30</li>
-    </ul>
 </body>
 </html>
