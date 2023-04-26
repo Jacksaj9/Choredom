@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ChoredomUI.Models;
 using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ChoredomUI.Pages.Chores
 {
+    [Authorize]
     public class AddPersonModel : PageModel
     {
         [BindProperty]
@@ -39,4 +41,3 @@ namespace ChoredomUI.Pages.Chores
         }
     }
 }
-

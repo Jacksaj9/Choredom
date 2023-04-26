@@ -1,6 +1,10 @@
 ﻿@page
 @model ChoredomUI.Pages.Rooms.OutdoorsModel
 @{
+    if (HttpContext.User.Identity != null)
+    {
+        Layout = HttpContext.User.Identity.IsAuthenticated ? "_AuthenticatedLayout" : "_Layout";
+    }
 }
 <html>
 <head>
@@ -38,7 +42,7 @@
             <br />
             <br />
             <br />
-            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia; color:white;">Custom Chore</button></a>
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;color:white">Custom Chore</button></a>
         </div>
     </div>
 

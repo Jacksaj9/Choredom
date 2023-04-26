@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ChoredomUI.Models;
 using System.Data.SqlClient;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ChoredomUI.Pages.People
 {
+
     public class PeopleListModel : PageModel
     {
         [BindProperty]
@@ -50,4 +52,6 @@ namespace ChoredomUI.Pages.People
 
     }
 }
+
+
 

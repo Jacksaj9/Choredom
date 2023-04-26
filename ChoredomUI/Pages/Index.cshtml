@@ -3,36 +3,39 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    if (HttpContext.User.Identity != null)
+    {
+        Layout = HttpContext.User.Identity.IsAuthenticated ? "_AuthenticatedLayout" : "_Layout";
+    }
+
 }
 
 <html>
 <head>
     <style>
-    <!--
+        <!--
 
-    body{
-        
-    }
+        body {
+        }
 
-    button{
+        button {
             position: absolute;
-         
-        color: #000000;
-        
+            color: #000000;
         }
 
-    marquee{
-        font-size:30px;
-        font-weight:800;
+        marquee {
+            font-size: 30px;
+            font-weight: 800;
             font-family: georgia;
-        color: purple;
-        padding:40px 0;
+            color: purple;
+            padding: 40px 0;
         }
-    checkbox{
-            font-family: georgia;
-    }
 
-    -->
+        checkbox {
+            font-family: georgia;
+        }
+
+        -->
     </style>
 
 </head>
@@ -43,20 +46,20 @@
             <div class="container">
                 <img src="/lib/img/floorplan.png" width="800" height="600" />  <!--house image-->
                 <!--bedroom butotn-->
-                <a asp-page="/Rooms/Bedroom"><button style=" background-color:#FBC6AF;font-family:georgia; left:200px; top:550px;">Bedroom</button></a>
+                <a asp-page="/Rooms/Bedroom"><button style=" background-color:#FBC6AF;font-family:georgia; left:200px; top:520px;">Bedroom</button></a>
 
                 <!--Outdoors button-->
-                <a asp-page="Rooms/Outdoors"><button style="background-color:#FEE290; font-family:georgia;left:500px; top:400px;">Outdoors</button></a>
+                <a asp-page="Rooms/Outdoors"><button style="background-color:#FEE290; font-family:georgia;left:500px; top:360px;">Outdoors</button></a>
                 <!--Living room button-->
-                <a asp-page="Rooms/livingRoom"><button style="background-color:#FFFFFF; font-family:georgia;left:480px; top:570px;">Living Room</button></a>
+                <a asp-page="Rooms/livingRoom"><button style="background-color:#FFFFFF; font-family:georgia;left:480px; top:550px;">Living Room</button></a>
                 <!--Laundry button-->
-                <a asp-page="Rooms/Laundry"><button style="background-color:#F3EAA2; font-family:georgia;left:470px; top:740px;">Laundry</button></a>
+                <a asp-page="Rooms/Laundry"><button style="background-color:#F3EAA2; font-family:georgia;left:470px; top:720px;">Laundry</button></a>
                 <!--Kitchen button-->
-                <a asp-page="Rooms/Kitchen"><button style="background-color:#94B8DA; font-family:georgia;left:700px; top:740px;">Kitchen</button></a>
+                <a asp-page="Rooms/Kitchen"><button style="background-color:#94B8DA; font-family:georgia;left:720px; top:720px;">Kitchen</button></a>
                 <!--Closet button-->
-                <a asp-page="Rooms/Closet"><button style="background-color:#FFF2DC; font-family:georgia;left:230px; top:740px;">Closet</button></a>
+                <a asp-page="Rooms/Closet"><button style="background-color:#FFF2DC; font-family:georgia;left:230px; top:720px;">Closet</button></a>
                 <!--bathroom button-->
-                <a asp-page="Rooms/Bathroom"><button style="background-color:#FFF2DC; font-family:georgia;left:780px; top:570px;">Bathroom</button></a>
+                <a asp-page="Rooms/Bathroom"><button style="background-color:#FFF2DC; font-family:georgia;left:780px; top:520px;">Bathroom</button></a>
             </div>
         </div>
         <div class="col-sm-3">
@@ -73,25 +76,24 @@
             <br />
             <input type="checkbox" name="chore" value="Dust" />Dust
             <br />
-            <input type="checkbox" name="chore" value="Pick Trash"/>Pick up trash
+            <input type="checkbox" name="chore" value="Pick Trash" />Pick up trash
             <br />
             <input type="checkbox" name="chore" value="Wash Carpet" />Wash carpet
             <br />
             <input type="checkbox" name="chore" value="Straighten" /> Straigten up
             <br />
-            <input type="checkbox" name="chore" value="Water Plants"/>Water plants
+            <input type="checkbox" name="chore" value="Water Plants" />Water plants
             <br />
             <input type="checkbox" name="chore" value="Wash windows" />Wash windows
             <br />
-            <input type="checkbox" name="chore" value="Change lightbulb"/>Change lightbulb
+            <input type="checkbox" name="chore" value="Change lightbulb" />Change lightbulb
             <br />
             <input type="checkbox" name="chore" value="Walk the dog" />Walk the dog
             <br />
             <br />
             <br />
-            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia; color:white;">Custom Chore</button></a>
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;color:white">Custom Chore</button></a>
         </div>
     </div>
 </body>
 </html>
-

@@ -1,14 +1,18 @@
 ﻿@page
 @model ChoredomUI.Pages.Chores.EditChoreModel
 @{
+    if (HttpContext.User.Identity != null)
+    {
+        Layout = HttpContext.User.Identity.IsAuthenticated ? "_AuthenticatedLayout" : "_Layout";
+    }
 }
 
 <script type="text/javascript">
-    
-    function validateInput(){
+
+    function validateInput() {
         var isValid = true;
         var choreName = document.getElementById("inputChoreName");
-        if(choreName.value == ""){
+        if (choreName.value == "") {
             isValid = false;
             document.getElementById("choreNameError").innerHTML = "This field is required.";
         }
@@ -27,4 +31,5 @@
         <a asp-page="ChoreList" class="btn btn-secondary">Cancel</a>
     </div>
 </form>
+
 

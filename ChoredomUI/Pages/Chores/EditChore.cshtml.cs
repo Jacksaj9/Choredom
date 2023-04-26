@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ChoredomUI.Models;
 using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ChoredomUI.Pages.Chores
 {
+    [Authorize]
     public class EditChoreModel : PageModel
     {
         [BindProperty]
@@ -18,7 +20,7 @@ namespace ChoredomUI.Pages.Chores
                 cmd.Parameters.AddWithValue("@choreId", id);
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
-                if(reader.HasRows)
+                if (reader.HasRows)
                 {
                     reader.Read();
                     ExistingChore.ChoreName = reader["ChoreName"].ToString();
@@ -28,7 +30,7 @@ namespace ChoredomUI.Pages.Chores
 
         public IActionResult OnPost(int id)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 using (SqlConnection conn = new SqlConnection(DBHelper.GetConnectionString()))
                 {

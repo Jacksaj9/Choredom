@@ -1,18 +1,22 @@
 ﻿@page
 @model ChoredomUI.Pages.Rooms.BathroomModel
 @{
+    if (HttpContext.User.Identity != null)
+    {
+        Layout = HttpContext.User.Identity.IsAuthenticated ? "_AuthenticatedLayout" : "_Layout";
+    }
 }
 <html>
-    <head>
+<head>
 
 
-    </head>
-    <body>
+</head>
+<body>
     <div class="row">
         <div class="col-sm-9">
             <div class="container">
                 <img src="/lib/img/bathroom.jpg" width="800" height="600" />  <!--bathroom image-->
-                
+
             </div>
         </div>
         <div class="col-sm-3">
@@ -38,9 +42,9 @@
             <br />
             <br />
             <br />
-            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;color:white;">Custom Chore</button></a>
+            <a asp-page="/Chores/ChoreList"><button style=" background-color:purple;font-family:georgia;color:white">Custom Chore</button></a>
         </div>
     </div>
 
-    </body>
+</body>
 </html>

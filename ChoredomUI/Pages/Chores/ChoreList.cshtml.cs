@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
 using ChoredomUI.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ChoredomUI.Pages.Chores
 {
+    [Authorize]
     public class ChoreListModel : PageModel
     {
         [BindProperty]
@@ -48,3 +50,4 @@ namespace ChoredomUI.Pages.Chores
     }
 
 }
+

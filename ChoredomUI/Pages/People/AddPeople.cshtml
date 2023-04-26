@@ -1,6 +1,10 @@
 ﻿@page
 @model ChoredomUI.Pages.Chores.AddPersonModel
 @{
+    if (HttpContext.User.Identity != null)
+    {
+        Layout = HttpContext.User.Identity.IsAuthenticated ? "_AuthenticatedLayout" : "_Layout";
+    }
 }
 
 <form method="post">

@@ -3,6 +3,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+builder.Services.AddAuthentication("ChoredomCookie").AddCookie("ChoredomCookie", options =>
+{
+    options.Cookie.Name = "ChoredomCookie";
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -18,8 +23,11 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapRazorPages();
 
 app.Run();
+
