@@ -18,20 +18,30 @@
     </div>
 </div>
 
-<ul class="list-group list-group-flush">
+<div class="row">
     @foreach (var chore in Model.ChoreList)
     {
-        <li class="list-group-item">
+        <div class="row">
+<div class="col-4">
+        <li class="checkbox" type="checkbox">
             @chore.ChoreName
+        </li>
+        </div>
+        <div class="col-6">
             <form method="post">
                 <a asp-page="EditChore" asp-route-id="@chore.ChoreId" class="btn btn-success" style="float: right;">
                     <i class="bi bi-pencil mx-2"></i>Edit Chore
-                </a>
+                    </a>
+                    </form>
+            </div>
+             <div class="col-2">
+                <form method="post">
                 <button type="submit" class="btn btn-danger" asp-route-id="@chore.ChoreId" style="float: right;" onclick="return confirm('Are you sure you want to delete this chore? This action cannot be undone');"><i class="bi bi-trash3 mx-2"></i>Delete Chore</button>
             </form>
-        </li>
-
+        </div>
+        </div>
+        <br />
 
     }
-</ul>
+</div>
 

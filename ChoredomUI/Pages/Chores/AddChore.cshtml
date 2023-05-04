@@ -12,31 +12,9 @@
 
     <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="Enter Chore Name" aria-label="Enter Chore Name" aria-describedby="AddChore" id="AddChore" asp-for="NewChore.ChoreName" />
-    </div>
-    <div class="dropdown">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select a Location</button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Housewide</a></li>
-            <li><a class="dropdown-item" href="#">Living Room</a></li>
-            <li><a class="dropdown-item" href="#">Outdoors</a></li>
-            <li><a class="dropdown-item" href="#">Bedroom</a></li>
-            <li><a class="dropdown-item" href="#">Bathroom</a></li>
-            <li><a class="dropdown-item" href="#">Closet</a></li>
-            <li><a class="dropdown-item" href="#">Laundry</a></li>
-            <li><a class="dropdown-item" href="#">Kitchen</a></li>
-        </ul>
-    </div>
-    <div class="dropdown">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select a Person</button>
-        <ul class="dropdown-menu">
-            @foreach (var person in Model.PeopleList)
-            {
-                <li><a class="dropdown-item" href="#">@person.FirstName @person.LastName</a></li>
-            }
-        </ul>
-    </div>
-    <div>
         <button class="btn btn-outline-secondary" type="submit">Add Chore</button>
     </div>
+    
+    
     
 </form>
