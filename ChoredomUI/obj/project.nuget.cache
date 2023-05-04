@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8W/qUc7hL3ds52azrZtToiYcw0rsek52L6BN7zg6VkoZJzNdnNWYK5cRfUUgYKt/nVwEduBrVZ8NpGy3vLscJA==",
+  "dgSpecHash": "aM/ZI3aA3QqfAuzN6yXA/quKBp7zO9X1EYFFtG4GxMGKgw0Pi+K0Ti6bHD03Po0216lDv+NQKzQvUK0vHkU7SA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Meg\\Source\\Repos\\swigityswooty\\ChoredomUI\\ChoredomUI.csproj",
+  "projectFilePath": "C:\\Users\\Meg\\source\\repos\\swigityswooty\\ChoredomUI\\ChoredomUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Meg\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Meg\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

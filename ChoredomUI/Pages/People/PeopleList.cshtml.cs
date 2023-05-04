@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ChoredomUI.Pages.People
 {
-
+    [Authorize]
     public class PeopleListModel : PageModel
     {
         [BindProperty]
